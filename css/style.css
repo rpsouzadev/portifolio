@@ -5,14 +5,11 @@
     font-family: 'Fira Code', monospace;
 }
 
-body {
-    background-color: black;
-    color: white;
-}
 
 .center {
     display: flex;
     width: 100%;
+    max-width: 1280px;
     margin: 0 2%;
 }
 
@@ -61,3 +58,56 @@ header {
 }
 
 /* Header finalizado */
+
+.inicio {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(15 12 41);
+}
+
+.saudacao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: rgb(3, 152, 158);
+}
+
+.saudacao p {
+    font-size: 40px;
+    color: white;
+}
+
+.saudacao h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.botao {
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 80px;
+    width: 200px;
+    height: 44px;
+    background: linear-gradient(60deg, rgba(99,205,215,0.8911939775910365) 0%, rgba(3,152,158,0.8127626050420168) 35%, rgba(3,152,158,1) 100%);
+    box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(60deg, rgba(3,152,158,1) 0%, rgba(0,147,183,1) 49%, rgba(0,95,137,1) 100%);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
