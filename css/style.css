@@ -6,7 +6,7 @@
 }
 
 
-.center {
+.container {
     display: flex;
     width: 100%;
     max-width: 1280px;
@@ -63,7 +63,11 @@ header {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: rgb(15 12 41);
+    background-color: #0f0c29;
+}
+
+.inicio > .container {
+    margin-top: 150px;
 }
 
 .saudacao {
@@ -111,3 +115,47 @@ header {
     text-decoration: none;
     color: white;
 }
+
+/* inicio finalizado */
+
+.sobre {
+    display: flex;
+    height: 100vh;
+    background-color: #0f0c29;
+    align-items: center;
+}
+
+
+.sobre-mim {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.sobre-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.sobre-img img {
+    width: 80%;
+    height: 90%;
+}
+
+.sobre-descricao {
+    width: 60%;
+    padding: 0 30px;
+    vertical-align: middle;
+}
+
+.sobre-descricao p {
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
