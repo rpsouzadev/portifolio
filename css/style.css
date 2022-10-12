@@ -211,6 +211,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 5px;
 }
 
@@ -245,3 +246,37 @@ header {
     transform: scale(1.1);
 }
 
+/* Projetos finalizados */
+
+.contato {
+    background-color: #0f0c29;
+    padding: 40px;
+}
+
+.contato-flex {
+    width: 100%;
+    padding: 2% 10% 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.feito p{
+    color: #03989e;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icon-contatos img {
+    width: 48px;
+    background-color: #03989e;
+    border-radius: 24px;
+    transition: 0,3s;
+}
+
+.icon-contatos img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer finalizdo */
