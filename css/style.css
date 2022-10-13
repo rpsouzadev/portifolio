@@ -89,6 +89,22 @@ header {
     text-transform: uppercase;
 }
 
+.saudacao h1::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
 .botao {
     margin: 0 auto;
 }
