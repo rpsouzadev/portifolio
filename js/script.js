@@ -1,6 +1,6 @@
 const saudacao = document.querySelector(".meu-nome");
 
-
+// Maquina de escrever
 function typeWriter(elemento) {
     setTimeout(() => {
         const textArray = elemento.innerHTML.split("");
@@ -14,3 +14,17 @@ function typeWriter(elemento) {
 }
 
 typeWriter(saudacao);
+
+// Menu mobile
+const menuMobile = document.querySelector(".menu-mobile");
+
+function toggleMenu (e) {
+    if (e.type === "touchstart") e.preventDefault ();
+    const nav = document.querySelector(".nav");
+    nav.classList.toggle("active");
+    const active = nav.classList.contains("active");
+    e.currentTarget.setAttribute("aria-expanded", active);
+}
+
+menuMobile.addEventListener ("click", toggleMenu);
+menuMobile.addEventListener ("touchstart", toggleMenu);
