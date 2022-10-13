@@ -1,4 +1,4 @@
-const saudacao = document.querySelector(".meu-nome");
+const meuNome = document.querySelector(".meu-nome");
 
 // Maquina de escrever
 function typeWriter(elemento) {
@@ -13,7 +13,7 @@ function typeWriter(elemento) {
     }, 1500)
 }
 
-typeWriter(saudacao);
+typeWriter(meuNome);
 
 // Menu mobile
 const menuMobile = document.querySelector(".menu-mobile");
