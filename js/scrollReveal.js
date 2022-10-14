@@ -8,3 +8,4 @@ sr.reveal('.proj-h', {duration : 3000, origin:'top'})
 sr.reveal('.meus-projetos', {duration : 3000, origin:'bottom'})
 sr.reveal('.feito', {duration : 3000, origin:'left'})
 sr.reveal('.icon-contatos', {duration : 3000, origin:'right'})
+
