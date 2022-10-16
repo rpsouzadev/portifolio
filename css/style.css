@@ -219,8 +219,10 @@ header {
 }
 
 .projeto-single {
-    width: 300px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 180px;
     border-radius: 10px;
     background: linear-gradient(60deg, rgba(3, 152, 158, 1) 0%, rgba(0, 147, 183, 1) 49%, rgba(0, 95, 137, 1) 100%);
     color: #0f0c29;
