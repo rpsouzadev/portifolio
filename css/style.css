@@ -18,6 +18,7 @@
     height: 100vh;
     background-color: #0f0c29;
     align-items: center;
+    overflow: hidden;
 }
 
 /* gerais finalizado */
@@ -252,12 +253,12 @@ header {
 }
 
 .img-react {
-    width: 40px;
+    max-width: 40px;
     margin-right: 10px;
 }
 
 .img-firebase {
-    height: 38px;
+    max-height: 38px;
 }
 
 .link {
